@@ -28,6 +28,7 @@ function Board() {
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
     setCount(count+1);
+    return;
   }
 
   let gameStatus;
